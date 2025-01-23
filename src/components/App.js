@@ -10,6 +10,8 @@ console.log(user);
 function App() {
   return (
     <div>
+      <Home name={user.name} city={user.city} />
+<About bio={user.bio} links={user.links} />
       <NavBar />
       <Home />
       <About />
